@@ -18,6 +18,10 @@
     text-decoration: none;
     color: #007185;
 }
+.label a:hover{
+    color: orange;
+    text-decoration: underline;
+}
 .box-container{
     display: flex;
     justify-content: space-evenly;
