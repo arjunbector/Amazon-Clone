@@ -3,7 +3,9 @@
     margin: 0;
 }
 html{
+    scroll-behavior: smooth;
     font-family: 'Poppins';
+    background-color: #E3E6E6;
 }
 .navbar{
     display: flex;
@@ -55,7 +57,7 @@ html{
     width: auto;
 }
 .searchbox{
-    width: 600px;
+    width: 550px;
     padding: 10px;
 }
 .search-icon{
@@ -89,4 +91,25 @@ html{
     right: 65px;
     font-weight: bolder;
 
+}
+
+.sec-navbar{
+    display: flex;
+    align-items: center;
+    background-color: #232f3e;
+    height: 40px;
+}
+.sec-navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.sec-navbar ul a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+}
+.sec-navbar ul a:hover{
+    border: 1px solid white;
 }
